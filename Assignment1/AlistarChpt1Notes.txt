@@ -1,0 +1,37 @@
+Alistair Cockburn Chpt 1
+
+1. INTRODUCTION TO USE CASES
+
+1.1 What is a Use Case (more or less)?
+- A use case captures a contract between the stakeholders of a system about its behavior
+- The use case describes the system’s behavior under various conditions as it responds to a request from one
+of the stakeholders, called the "primary actor".
+- The primary actor initiates an interaction with the system to accomplish some goal. The system responds, 
+protecting the interests of all the stakeholders. Different sequences of behavior, or scenarios, can unfold, 
+depending on the particular requests made and conditions surrounding the requests. The use case collects together 
+those different scenarios.
+- Under normal circumstances, use cases serve to communicate from one person to another, often to people with no 
+special training. Simple text is, therefore, usually the best choice.
+- When the use cases document an organization’s business processes, the system under discussion is the 
+organization itself. The stakeholders are the company shareholders, customers, vendors, and government 
+regulatory agencies. The primary actors will include the company’s customers and perhaps their suppliers.
+- Ex. Piece of software:
+System under discussion: the computer program
+Stakeholders:the people who use the program, the company owning it, government regulatory agencies, and other 
+	     computer programs
+Primary Actor: the user sitting at the computer screen or another computer system.
+
+- Primary actor: is the one with the goal that the use case addresses
+- Scope: identifies the system that we are discussing
+- Preconditions/Guarantees: say what must be true before and after the use case runs
+- Main success scenario: is a case in which nothing goes wrong
+- Extensions: section describes what can happen differently during that scenario
+- The numbers in the extensions refer to the step numbers in the main success scenario at which each different 
+situation gets detected (for instance, steps 4a and 4b indicate two different conditions that could show up at 
+step 4)
+- When a use case references another use case, the second use case is written in italics or underlined
+
+1.2 Your use case is not my use case
+- Types of use cases on p.22
+
+P.24 IN ALISTAIR

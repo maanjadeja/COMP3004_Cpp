@@ -1,0 +1,106 @@
+- Between June 1985 and January 1987, a software-controlled radiation therapy machine called the Therac-25 
+massively overdosed six people, resulting in serious injury and deaths.
+
+OVERCONFIDENCE IN SOFTWARE
+- In safety-critical systems today—including medical devices, aircraft, nuclear power plants, and weapons
+systems—standard hardware backups, interlocks, and other safety devices are often replaced by software
+- Many hardware engineers (and some software engineers) have so much confidence in software that they
+eliminate the hardware protection that was common before software took over
+-  Engineers don’t purposely create designs where a hardware single-point failure could lead to a catastrophe. The
+same needs to be true for the software in these systems. Protection against software errors can and should be
+built into both the system and the software itself.
+
+CONFUSING RELIABILITY WITH SAFETY
+- When systems were primarily electro-mechanical, nearly exhaustive testing was possible and design errors could
+be eliminated before operational use. What was left during operations were random wearout failures. Safety, then,
+could be assumed to be effectively approximated by reliability
+- In fact, software by itself isn’t safe or unsafe—safety depends on context. Much of the Therac-25
+software had been used on an earlier version of the machine called the Therac-20
+- In fact, nearly all accidents involving software have resulted from flawed software requirements, not 
+implementation 
+- There’s still a widespread but untrue belief that software will be safe if it satisfies its requirements, or 
+that the safety of a specific piece of software can be evaluated apart from its use environment.
+- Another widespread misunderstanding is that software safety is enhanced by assuring that the software
+satisfies the requirements. Almost all software-related accidents have involved requirements flaws, not coding or 
+implementation errors.
+- If we truly want to reduce software-related accidents, we have to focus less on assurance and more on 
+identifying the safety-critical requirements and building safety into these machines from the beginning of
+development.
+
+LACK OF DEFENSIVE DESIGN
+- The Therac-25 software didn’t contain self-checks or other error-detection and error-handling features that 
+would have detected problems. 
+- Such verification can’t be assigned to operators without providing them with some means of detecting errors.
+- One problem, however, is that so much data is collected—for instance, in aircraft operations—that it’s difficult 
+to detect problems until after a serious event has occurred.
+- The problem today isn’t in collecting data, but rather in identifying trends and behaviors of the hardware, 
+software, and operators that are increasing risk before an accident occurs.
+
+UNREALISTIC RISK ASSESSMENTS
+- In general, such calculations often exclude aspects of the problem that are difficult to quantify (such as 
+software requirements inadequacies) but which might have a larger impact on safety than the quantitative factors 
+that are included. There are few if any scientific evaluations of the correctness of such assessment
+- Even after a loss or significant event, engineers and management often ignored the fact that the risk
+assessment was obviously wrong, and they continued to believe in it until the next event—and sometimes after
+several events—until a major loss occurred.
+- The safety program with the best historical track record—the US Navy’s submarine safety program (SUBSAFE)—allows 
+decision making about safety using only Objective Quality Evidence, which is defined as “any statement of fact, 
+either quantitative or qualitative, pertaining to the quality of a product or service, based on observations, 
+measurements, or tests that can be verified.
+- A better solution is to design for the worst case (instead of assuming that only the average case will occur)
+and creating better decision-making tools that don’t require unsupportable risk assessments.
+
+INADEQUATE INVESTIGATION OF INCIDENTS OR FOLLOW-UP ON ACCIDENT REPORTS
+- Superficial accident/incident analyses, usually placing all or most of the blame on the operators, leads to
+patching symptoms but not to understanding the deeper underlying and systemic causes of a loss or near loss.
+- We need to look at the role of the entire system in the accident to make progress in safety
+
+INADEQUATE SOFTWARE AND SYSTEM ENGINEERING PRACTICES
+- The Therac-25 software was created in 1974 and used what are now considered out of date software engineering
+practices
+- Too often, practices that might be acceptable for website or productivity tools development are used and even
+promoted for safety-critical software. A few of these include:
++ Software specifications and documentation are often an afterthought, and the development of requirements 
+after the design is created is sometimes even touted as a benefit or necessity. This simply isn’t
+true for safety-critical software where the loss might involve not only human life but physical property, critical 
+mission loss, and damage to the environment. It should be considered malpractice for software to be created
+before the safety requirements are identified. Identifying these requirements will necessitate sophisticated 
+system-engineering hazard analysis techniques
++ Software designs are often unnecessarily complex. Whereas object-oriented design is appropriate for data-oriented
+systems, it’s not appropriate for control-oriented systems. The resulting software is more difficult to test for 
+safety, trace from requirements to code, maintain without affecting safety, and assure the correctness of changes 
+to safety-critical requirements. We need to get over the fixation that there is one best way to design software 
+for all types of systems
++ Defensive design is sometimes not emphasized. Ways to detect or prevent software errors should be designed in
+from the beginning. If written first, error-handling routines will get the most exercise. Many (and perhaps most) 
+errors in operational software lie in the error-handling routines themselves. Programming languages that provide 
+error protection, such as strong type checking, aren’t always popular or used in safety-critical systems, but are 
+necessary for safety-critical systems
++ Software engineers and human factors engineers don’t work together enough. We create software today that’s
+confusing to operators and can lead to accidents, but the operator is blamed rather than the software. Software 
+design can create operator mode confusion, situation awareness errors, and so on. These dangerous features of 
+software need to be avoided or detected and handled in some way.
+
+SOFTWARE REUSE
+- Today, overconfidence in reuse is still rampant. A false assumption might be made that reusing software or 
+using commercial off-the-shelf software increases safety because the software has been exercised extensively
+- Reusing software that was safe in one system doesn’t mean it will be safe when used in a different system.
+
+SAFE VERSUS “FRIENDLY” USER INTERFACES
+- Sometimes making the interface easy to use conflicts with safety. For example, eliminating multiple data entry 
+and assuming that operators would check the values carefully before pressing the return key was unrealistic for
+the Therac-25 and for most systems.
+- Relying on operators to detect errors and recover before an accident isn’t realistic, particularly when the
+operator isn’t provided with the support to perform this function.
+- Some of the radiation therapy accidents since the Therac-25 overdoses have involved operators not being able to
+see or react to error messages. The accidents were then blamed on the operators rather than on the machine
+and interface design. The same has occurred in other industries, where operators are blamed for accidents
+that are primarily the result of flawed engineering.
+
+USER AND GOVERNMENT OVERSIGHT AND STANDARDS
+- The FDA (US Federal Drug Administration) puts more emphasis on reporting adverse events in linear accelerators, 
+for example, than on preventing them in the first place.
+- One problem is the difficulty and time required to update standards. In general, standards should never include
+specific techniques (such as failure modes and effects analysis [FMEA] for medical devices) or they will become
+out of date almost immediately, without any possibility of being updated for perhaps a decade.
+ 

@@ -1,0 +1,113 @@
+
+- installing the rail brackets and the rail as straight and accurately as possible in the elevator shaft
+- if rails are not perfectly aligned the elevator can go off the track and ppl can get hurt
+- installation begins with spot brackets at top most part of the shaft 
+- technicians drop a plumb line to the elevator pit in order to accurately line the lower brackets with the spots
+up top
+- the plumb line is a steel wire with a 12lb weight at the end to reduce sway over distances
+- rail brackets must be perfectly straight levelled and aligned to a tolerance of 1/64 of an inch
+- they repeat the installation of the rail brackets from floor to floor and side to side until all the brackets
+are in place
+- once brackets are in place, guide rails are attached. Guide rails are carefully guided in place with 1 ton
+chain hoist, communication is key for safe installation 
+- guide choose study the elevator as it travels up and down the shaft. 
+- Upward motion is achieved when oil is pumped into the hydraulic pistons causing them to raise 
+- The elevator lowers by releasing the oil pressure in the system 
+- Sensors monitor and ensure the pistons on both sides of the shaft are moving in sync 
+- The selector is a device that monitors floor position. It reads carefully position magnets on the selected tape 
+  and commands to stop in a precise alignment with the floor
+- During this phase, the computerized motion control system is installed
+- Control jump is the bypass safety devices allow the installation of a temporary run box, to move the platform
+while on the construction
+- Car sling installation constitutes: platform, styles, cross heads and bolts the channel. Its rugged steel 
+construction is the foundation on which the rest of the cabin passengers will ride 
+*BASIC ELEVATOR TEMPLATE IS NOW IN PLACE
+
+- The rails and brackets are the foundatino of the elevator installation, if the brackets arent on properly the 
+rails will be off, and every other item in the entire installation is set to the rail distance. Those items will
+be off also.
+- The brackets lead us into the rails and the rest of the installation
+- Car sling comes in pieces and has to be put on both square and plumb in order for ppl to connect it to the 
+previously installed pistons and rails
+
+- Once rails,platform and sling are installed, u can now start setting the entrances (doors u walk through when
+u enter the elevator), then they install the cab, then there will be electrical work and programming of the 
+elevator in order to get us to permanent operation
+- ppl that work in installing the elevator: Masons, steelworkers, steamfitters, fire service, electricians
+CAB ASSEMBLY
+
+- As installation continues precise measurements are taken to install the struts
+- Struts guide the hold or installation at each landing *EXTENSION* 
+- Brackets are installed to hold the struts securely in place
+- When completed a full-speed elevator will pass the inches at less than an inch, so they must be installed 
+perfectly to avoid a collision *EXTENSION*
+- Imperfect struts lead to poorly installed entrances and doors that do not work *EXTENSION*
+- The hoist way sill is placed at the entrance on each level
+- The hoist way sill and the cap sill must be in perfect alignment *EXTENSION*
+- Marks are made to prepare for the installation of the door box 
+- A header is placed along the top of the entrance at each landing completing the frame of the door which can now
+be installed
+- it is secured both top and bottom as always to strict and exact specification. Now its time to install the 
+landing door
+- the door rides on the landing header resting on smooth rolling casters, it is kept on the track with the hoist
+sill using guides known as gibbs *EXTENSION*
+- know how perfectly level and aligned the header and hoist sill are, the door hangs and moves with ease *EXTENSION*
+- the assembly of the cab begins by loosely joining the side and rear interior walls as they sit on top of the
+platform 
+- next the team unpacks the dome and ceiling unit to finish off the top of the elevator. These components contain
+electronics that will be wired into the rest of the system later to function properly *EXTENSION*
+- before the dome is attached, the strike column and return column are installed and the front panels of the car
+are assembled.
+- This includes the car operating station that contains the cars' vital electronic command and control assembly *EXTENSION*
+- It houses a computer interface, auxilary control key switches, fire service operation and call registration
+- Once those are in place, the dome is attached *EXTENSION*
+- The door control and motor drive unit resides atop the front of the cab and is joined to the front walls and 
+the dome to structurally tie all panels together
+
+
+- With cab assembly complete, all parts are tightened, double checked for square and anchored to the platform in
+their final positions
+- The cab door is now moved into place, attached to the door operator and adjustments are made until the 
+door is running smoothly
+
+DOOR ASSEMBLY
+- Gibbs will keep the cab door aligned with the cab sill
+- the door clutch assembly is attached to the cab door and adjusted 
+- as the cab moves between floors, the clutch will engage the outer doors on each landing and cause them to 
+open and close in sync with the cab door when driven by the door operator *EXTENSION*
+- the mechanism to lock and unlock the door at each floor is installed and is adjusted for proper operation
+- sensors to re-open the door when instructed are installed the electrical wiring on top of the elevator for the 
+lights and ventilation fan is complete
+
+ELECTRIC ASSEMBLY
+- there are 2 types of wiring involved in elevator installation: the higher voltage electrical wiring that powers
+the various electrical systems, and the complex low voltage signal wiring that runs between the computer and 
+the various devices and sensors *EXTENSION*
+- Wiring of the computer and control systems runs along a cable comprised of hundreds of wires and completing these
+connections now make up the bulk of whats left on the job *EXTENSION*
+- the crew will field wire all the remaining car control systems *EXTENSION*
+- remove some of the jumpers that override computer control and finally remove the run box that has been 
+controlling the elevator for most of this installation
+- the crew now controls the elevator from the inspection station on top of the car *EXTENSION*
+- after controller wiring is completed 1 team member will control the elevator from the control room while the
+other keeps track of elevator speeds *EXTENSION*
+- they fine-tune the speeds by adjusting the valves which control the rate at which hydraulic fluid is allowed
+into and out of the pistons, until the speed is correct *EXTENSION*
+- remainder of field wiring for elevator control systems is completed, every button, switch and endpoint in the
+system is now connected
+- Wires fixed to the non-moving systems are carried through solid conduit (metal pipe), wires that move with the 
+car are carried via travelling cable *EXTENSION*
+- Once the wiring is completed, the computer is programmed with various command and control protocols required for
+the proper operations, the elevator is turned over to full automatic control
+- finally every button, switch and system on this elevator install is tested to make sure it is functioning
+properly to code *EXTENSION*
+- door safety sensors are checked to make sure they open if the light curtain is interrupted (door opens again
+if u put hand in the middle) *EXTENSION*
+- fire safety systems are checked to make sure that the elevator recalls to the proper floors in case of an 
+emergency *EXTENSION*
+- once all this is confirmed and any errors are corrected, the elevator is essentially completed, all thats left 
+is some tidying up and painting to complete a professional installation
+
+BEFORE THE ELEVATOR IS OPEN TO USE
+- the elevator has to be inspected with a certified elevator inspector thats recognized by the authority having
+jurisdiction in the municipality
