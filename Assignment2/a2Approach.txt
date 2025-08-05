@@ -1,0 +1,38 @@
+CENTRALIZED
+-----------
+= we need to use a queue for the requests for the elevator
+Elevator
+- currentFloor
+- destinationfloor
+- movingUpOrDown
+- doorOpenOrClosed
+
+Floor Requests
+- goingUpOrDown
+- requestSendingFloor
+
+Controller
+- [List of elevator requests]: 
+ (sequence diagram)
+ (class diagrams shows the relations between the classes and how it works)
+ methods here need to be distributed to the other classes
+
+(need more classes for a better view)
+button (floor button, and elevator button), passenger(weight), sensor (which floor we're on), 
+display(in case of emergency)
+
+
+DECENTRALIZED
+--------------
+
+= Here we loop through a queue of elevators, and check their current status to see which elevator goes first
+
+Elevator
+- currentFloor
+- destinationfloor
+- movingUpOrDown
+- doorOpenOrClosed
+
+FloorRequest
+- goingUpOrDown
+- requestSendingFloor

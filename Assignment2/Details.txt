@@ -1,0 +1,6 @@
+- make a uml for both centralized and distributed
+- 
+
+-----------
+x = angle
+i = index
